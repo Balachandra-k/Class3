@@ -2,6 +2,8 @@ import React,{useState}from "react";
 import Button from "./sub/Button";
 import "./calc.css"
 import Screen from "./sub/Screen";
+
+/*eslint no-eval: 0 */
 function Calculator (props){
 
     const[inp,setInp] = useState('')
