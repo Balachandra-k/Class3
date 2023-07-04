@@ -8,8 +8,6 @@ function Calculator (props){
 
     const[inp,setInp] = useState('')
     const[out,setOut] = useState("0")
-    //actions
-    const actions =['+','-','*','/','%']
 
     //valueHnadler
     const valueHandler = (value) => {
