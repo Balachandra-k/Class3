@@ -3,7 +3,7 @@ import Button from "./sub/Button";
 import "./calc.css"
 import Screen from "./sub/Screen";
 
-/*eslint no-eval: 0 */
+ /* eslint no-eval: 0 */
 function Calculator (props){
 
     const[inp,setInp] = useState('')
@@ -15,6 +15,7 @@ function Calculator (props){
         const str = inp + value;
         setInp(str)
     }
+    //clers input and out put both
     
     const clearOut = (value) => {
         if(value === 'AC'){
